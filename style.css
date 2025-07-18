@@ -1,0 +1,266 @@
+body{
+    margin: 0;
+}
+
+.hero{
+    background-image: url('images/billboard.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    margin:0;
+    padding:0;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.7); 
+    z-index: 1;
+    height:80px;
+    margin:0;
+    padding: 0 0 0 0;
+}
+.top-navbar{
+    display: flex;
+    justify-content: space-between;
+    width:800px;
+    align-items: center;
+    height:80px;
+}
+
+.nav-links-main-div{
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo-img{
+    height:75px;
+    width: 75px;
+}
+
+#get-in-touch{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 255, 255,0.7);
+    z-index: 1;
+    height:80px;
+    margin:0;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}
+
+.get-in-touch-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+    width:100%;
+    margin:0 20px;
+}
+
+.get-in-touch-text{
+    font-size: 20px;
+}
+.get-in-touch-btn{
+    background-color: #4fcdff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#Products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+.products-div{
+    height: 60vh;
+    width: 800px;
+    background-color: #fbfbfb;
+}
+
+.all-products{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+}
+.product{
+    width: 266.67px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-img{
+    width: 50px;
+    height: 50px;
+    margin-left:40%;
+}
+
+.separator{
+    width: 67%;
+    height: 50px;
+    margin-left: 133px;
+}
+
+.product-line,
+.product-title,
+.product-description {
+color: #736868;
+}
+
+.product-line {
+    font-size: 28px;
+    text-align: center;
+    margin:15px;    
+}
+
+.gallery-div{
+    display: flex;
+}
+
+.gallery-img{
+    width: 25%;
+}
+
+#Testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Testimonials-div {
+    height: 60vh;
+    width: 800px;
+    background-color: #fbfbfb;
+}
+
+.all-testimonials {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+}
+
+.Testimonials {
+    width: 266.67px;
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.test-img {
+    width: 70px;
+    height: 70px;
+    margin-left: 40%;
+    border-radius: 50%;
+}
+
+.Testimonials-line,
+.Testimonials-title,
+.Testimonials-des {
+    color: #666666;
+}
+
+.Testimonials-line {
+    font-size: 28px;
+    text-align: center;
+    margin: 15px;
+}
+
+.job-title {
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.brand-div {
+    background-color: #f2f1f1;
+    height:80px;
+    display: flex;
+    justify-content: center;
+}
+.brand{
+    width: 800px;
+    background-color: #f2f1f1;
+    padding:30px 0 40px 0;
+    display: flex;
+    justify-content: space-between;}
+
+.client-logo {
+    width: 50px;
+    height: 30px;
+    margin: 0 20px;
+}
+
+#contact{
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.get-in-touch-div-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:80px;
+    width:800px;
+    left:50%;
+    background-color: rgb(67, 67, 67, 0.7);
+}
+
+.get-in-touch-text-2{
+    font-size: 20px;
+    color: #ffffff;
+}
+.get-in-touch-btn-2{
+    background-color: #4fcdff;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.social-icons{
+    height:30px;
+    width: 90px;
+}
+.end
+{
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start;    
+    justify-content: center;   
+    width: 800px;
+    color: #ffffff;
+}
+
+.info{
+    width:400px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.end-footer{
+    color:#ffffff;
+}
