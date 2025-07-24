@@ -86,6 +86,7 @@ body{
 .products-div{
     height: 60vh;
     width: 800px;
+    margin-top: 0;
     background-color: #fbfbfb;
 }
 
